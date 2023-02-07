@@ -1,29 +1,37 @@
 {
-  "name": "parcel-project-template",
+  "name": "cocktails-bar",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://NastyaSavchenko.github.io/cocktails-bar",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /cocktails-bar/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/NastyaSavchenko/cocktails-bar.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "NastyaSavchenko <savyle4ka13@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/NastyaSavchenko/cocktails-bar/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.2.2",
+    "hbs": "^4.2.0",
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "ninelines-preloader": "^1.3.6",
+    "notiflix": "^3.2.5",
+    "templates": "^1.2.9"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^5.7.1",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
